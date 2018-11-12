@@ -1,0 +1,67 @@
+.carousel{
+    width: auto;
+    max-height: 600px;
+    overflow: hidden;
+}
+body, html {margin:0px; padding:0px; height:100%; min-height:100%; font-family:Tahoma, Geneva, sans-serif; font-size:12px; color:#000; background:#fff; line-height:22px}
+#cont {min-height:100%; margin:0 auto; min-width:800px;}
+* html #cont {height:100%}
+#main_div {padding-bottom:0px}
+h1, h2, h3, h4 {margin:0; font-weight:normal}
+.clear {clear:both; font-size:0}
+a {outline-style:none}
+a:hover {color:#d33461}
+img {border:none}
+
+#preloader {position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff;z-index:9999999999999999;}
+#status {width:77px;height:71px;position:absolute;left:50%;top:50%;background-image:url(i/preloader.gif);background-repeat:no-repeat;background-position:center;margin:-35px 0 0 -37px;}
+
+
+
+/*********************************/
+.singleText {margin-bottom:70px; padding-left:275px}
+/*********************************/
+
+#our_works {height:50px}
+#works_cont {position:relative; text-align:center;}
+#works_title {font-family: 'grotesque'; color:#000; font-size:46px; text-transform:uppercase; text-align:center; margin-bottom:30px; letter-spacing:100px; -webkit-transition: all 1.9s ease;-o-transition: all 1.9s ease;-moz-transition: all 1.9s ease;transition: all 1.9s ease;}
+#works_title2 {font-family: 'grotesque'; color:#000; font-size:46px; text-transform:uppercase; text-align:center; margin-bottom:30px; overflow:hidden; width:100%; text-align:center; line-height:50px}
+#works_title.show {letter-spacing:0px; color:#F00}
+#works_cont #switcher {margin-top:0px; font-family: 'sans'; font-size:11px; text-transform:uppercase; letter-spacing:1px; color:#000;}
+#works_cont #switcher span {padding:0 13px; cursor:pointer}
+#works_cont #switcher span:hover {color:#5ae2d6}
+#works_cont #switcher .selected, #works_cont #switcher .selected:hover {color:#a7a7a7; cursor:default}
+#works_cont #round {margin:0 auto; height:0px; width:0px}
+
+#works_cont #works {margin:20px 0 0 0; background:#FFF; position:relative; width:102%}
+#works_cont #works a {display:block; float:left; width:33%; position:relative; font-family: 'sans'; font-size:13px; text-transform:uppercase; letter-spacing:2px; color:#000; text-decoration:none; overflow:hidden; -webkit-transition: all 0.5s ease;-o-transition: all 0.5s ease;-moz-transition: all 0.5s ease;transition: all 0.5s ease}
+#works_cont #works a.hide {width:0; opacity:0; margin-top:100px}
+#works_cont #works a:hover {color:#5ae2d6}
+#works_cont #works a .first {width:100%; display:block; margin:0 0 15px 0; -webkit-transition: all 0.3s ease;-o-transition: all 0.3s ease;-moz-transition: all 0.3s ease;transition: all 0.3s ease;}
+#works_cont #works a:hover .first {opacity:0.6}
+#works_cont #works a .second {width:100%; display:block; position:absolute; left:0; top:0; -webkit-transition: all 0.1s ease;-o-transition: all 0.1s ease;-moz-transition: all 0.1s ease;transition: all 0.1s ease; opacity:0; display:none}
+#works_cont #works a:hover .second {opacity:1}
+#works_cont #works a span {display:block; font-family:Tahoma, Geneva, sans-serif; font-size:9px; letter-spacing:3px; color:#989898; margin-bottom:15px}
+#works_cont #works a .newsSpan {padding:10px 20px; display:block; height:50px}
+#works_cont #works a .newsSpan, #works_cont #works a .newsSpan span {letter-spacing:0px; font-family: 'helvetica'; text-transform:none; font-size:13px; color:#000; line-height:16px}
+#works_cont #works a .newsSpan p {margin:0}
+#works_cont #works a .newsSpan p img {display:none}
+.newsCont a .first {width:100%; display:block; margin:0 0 15px 0; -webkit-transition: all 0.3s ease;-o-transition: all 0.3s ease;-moz-transition: all 0.3s ease;transition: all 0.3s ease; -webkit-filter: grayscale(1);}
+#works_cont #works a:hover .first {opacity:1; -webkit-filter: grayscale(0);}
+
+
+.mainTitle {font-family: 'grotesque'; color:#000; font-size:40px; line-height:50px; text-transform:uppercase; text-align:center; margin-bottom:30px; letter-spacing:0px; -webkit-transition: all 0.9s ease;-o-transition: all 0.9s ease;-moz-transition: all 0.9s ease;transition: all 0.9s ease;}
+
+
+
+
+
+ .first{
+    height:250px;
+    width: 70px;
+ }
+ footer{
+    border: 1px solid #e7e7e7;
+    background-color:  #596822;
+}
+ 
